@@ -674,7 +674,7 @@ input, select, textarea {
 
 		.image.left {
 			float: left;
-			padding: 0 1.5em 1em 0;
+			padding: 0 1.5em 0 0;
 			top: 0.25em;
 		}
 
@@ -716,6 +716,15 @@ input, select, textarea {
 
 			.image.main {
 				margin: 1.5rem 0;
+			}
+
+			.image.left img {
+				max-width: 72px;
+                max-height: 72px;
+			}
+
+			.logo-right {
+				padding-left: 96px;
 			}
 
 		}
