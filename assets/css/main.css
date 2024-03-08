@@ -705,10 +705,23 @@ input, select, textarea {
 				width: 100%;
 			}
 
+
+		@media screen and (max-width: 1680px) {
+
+			.image.left img {
+				margin-bottom: 72px;
+			}
+
+		}
+
 		@media screen and (max-width: 736px) {
 
 			.image.main {
 				margin: 2rem 0;
+			}
+
+			.image.left img {
+				margin-bottom: 48px;
 			}
 
 		}
@@ -720,12 +733,7 @@ input, select, textarea {
 			}
 
 			.image.left img {
-				max-width: 72px;
-                max-height: 72px;
-			}
-
-			.logo-right {
-				padding-left: 96px;
+				margin-bottom: 21px;
 			}
 
 		}
