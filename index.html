@@ -51,14 +51,91 @@
 						<!-- Intro -->
 							<article id="intro">
 								<h2 class="major">Intro</h2>
-								<p>Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas. By the way, check out my <a href="#work">awesome work</a>.</p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
+								<p>Originally from Nellore, Andhra Pradesh, India, I am a certified Java programmer who graduated from New York University, Courant, located in New York City, New York, with a Master's degree in Computer Science in May 2023. </p>
+									<span class="image main"><img src="images/NYU_Arch.jpg" alt="" /></span>
+									<h5>Washington Square Park at NYU, New York</h5>
+								<p>I am a highly motivated and skilled professional with over 3 years of experience as a Full Stack Java Developer at Publicis Sapient. I possess a strong understanding of web development best practices and the technologies required to build and maintain modern applications. I have worked on projects for renowned clients such as Taco Bell, FCA Mopar, and GameStop. My expertise lies in the complete software development lifecycle (SDLC), where I have consistently followed Agile methodologies. </p>
+									<span class="image main"><img src="images/BIT_Main_Building.jpg" alt="" /></span>
+									<h5>Main building of BIT Mesra, Ranchi</h5>
+								<p>Additionally, I hold a Bachelor's degree in Computer Science and Engineering from Birla Institute of Technology, Mesra, located in Ranchi, India.</p>
 							</article>
 
 						<!-- Skills -->
 							<article id="skills">
 								<h2 class="major">Skills</h2>
-								<p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit amet.</p>
+								<h3 class="major">Programming Languages</h3>
+									<div class="button">Java</div> 
+									<div class="button">JavaScript</div>
+									<div class="button">Python</div>
+									<div class="button">C++</div>
+									<div class="button">SQL</div>
+									
+								<h3 class="major" style="margin-top: 2rem;">Skills</h3>
+									<div class="button">Data Structures</div>
+									<div class="button">Algorithms</div>
+									<div class="button">Agile Methodologies</div>
+									<div class="button">Debugging</div>
+									<div class="button">Analytical problem solving</div>
+									
+								<h3 class="major" style="margin-top: 2rem;">Database</h3>
+									<div class="button">MySQL</div>
+									<div class="button">Oracle</div>
+									<div class="button">MongoDB</div>
+									<div class="button">DynamoDB</div>
+
+								<h3 class="major" style="margin-top: 2rem;">Frontend technologies</h3>
+									<div class="button">React</div>
+									<div class="button">HTML</div>
+									<div class="button">CSS</div>
+									<div class="button">Bootstrap</div>
+									<div class="button">REST API</div>
+									<div class="button">SOAP</div>
+									<div class="button">AJAX</div>
+									<div class="button">JQuery</div>
+									<div class="button">NodeJS</div>
+									<div class="button">JSON</div>
+									<div class="button">XML</div>
+									<div class="button">mocha and chai</div>
+
+								<h3 class="major" style="margin-top: 2rem;">Backend technologies</h3>
+									<div class="button">Spring Frameworks</div>
+									<div class="button">Spring Boot</div>
+									<div class="button">Spring MVC</div>
+									<div class="button">Microservices</div>
+									<div class="button">Hibernate</div>
+									<div class="button">Struts</div>
+									<div class="button">Servlets</div>
+									<div class="button">REST Web Services</div>
+									<div class="button">JUnit</div>
+									<div class="button">Mockito</div>
+									<div class="button">SFCC</div>
+									<div class="button">SalesForce Commerce Cloud</div>
+
+								<h3 class="major" style="margin-top: 2rem;">Build Tools</h3>
+									<div class="button">Maven</div>
+									<div class="button">Gradle</div>
+									
+								<h3 class="major" style="margin-top: 2rem;">Operating Systems</h3>
+									<div class="button">Windows</div>
+									<div class="button">Unix/Linux</div>
+
+								<h3 class="major" style="margin-top: 2rem;">Tools</h3>
+									<div class="button">Git</div>
+									<div class="button">AWS</div>
+									<div class="button">JIRA</div>
+									<div class="button">Docker</div>
+									<div class="button">Kubernetes</div>
+									<div class="button">Jenkins</div>
+									<div class="button">BitBucket</div>
+									<div class="button">GitLab</div>
+									<div class="button">Eclipse IDE</div>
+									<div class="button">VS code</div>
+									<div class="button">IntelliJ</div>
+									<div class="button">SFCC Sandbox</div>
+									<div class="button">Zenhub</div>
+									<div class="button">Postman</div>
+									<div class="button">AEM</div>
+
 							</article>
 
 						<!-- Work -->
@@ -179,6 +256,17 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script>
+				const buttons = document.querySelectorAll('#skills .button');
+				buttons.forEach(button => {
+					button.addEventListener('mouseover', () => {
+						button.classList.add('primary');
+					});
+					button.addEventListener('mouseout', () => {
+						button.classList.remove('primary');
+					});
+				});
+			</script>
 
 	</body>
 </html>
