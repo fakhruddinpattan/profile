@@ -174,13 +174,22 @@ input, select, textarea {
 		margin: 0 0 2rem 0;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
+	h1, h2, h3, h4, h6 {
 		color: #ffffff;
 		font-weight: 600;
 		line-height: 1.5;
 		margin: 0 0 1rem 0;
 		text-transform: uppercase;
 		letter-spacing: 0.2rem;
+	}
+
+	h5 {
+		color: #ffffff;
+		font-weight: 600;
+		line-height: 1.5;
+		margin: 0 0 1rem 0;
+		text-transform: uppercase;
+		letter-spacing: 0.15rem;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -216,6 +225,7 @@ input, select, textarea {
 
 	h4 {
 		font-size: 0.8rem;
+		letter-spacing: 0.15rem;
 	}
 
 	h5 {
@@ -1047,11 +1057,11 @@ input, select, textarea {
 		color: #ffffff !important;
 		cursor: pointer;
 		display: inline-block;
-		font-size: 0.8rem;
+		font-size: 0.7rem;
 		font-weight: 600;
 		margin-bottom: 4px;
 		height: 2.75rem;
-		letter-spacing: 0.2rem;
+		letter-spacing: 0.15rem;
 		line-height: 2.75rem;
 		outline: 0;
 		padding: 0 1.25rem 0 1.35rem;
@@ -1348,8 +1358,8 @@ input, select, textarea {
 		#header .content {
 			border-style: solid;
 			border-color: #ffffff;
-			border-top-width: 1px;
-			border-bottom-width: 1px;
+			border-top-width: 1.5px;
+			border-bottom-width: 1.5px;
 			max-width: 90%;
 		}
 
@@ -1386,13 +1396,13 @@ input, select, textarea {
 			margin-bottom: 0;
 			list-style: none;
 			padding-left: 0;
-			border: solid 1px #ffffff;
+			border: solid 1.5px #ffffff;
 			border-radius: 4px;
 		}
 
 			#header nav ul li {
 				padding-left: 0;
-				border-left: solid 1px #ffffff;
+				border-left: solid 1.5px #ffffff;
 			}
 
 				#header nav ul li:first-child {
@@ -1470,6 +1480,10 @@ input, select, textarea {
 				display: none;
 			}
 
+			#header > *:before {
+				width: 1.5px;
+			}
+
 			#header nav ul {
 				-moz-flex-direction: column;
 				-webkit-flex-direction: column;
@@ -1481,7 +1495,7 @@ input, select, textarea {
 
 				#header nav ul li {
 					border-left: 0;
-					border-top: solid 1px #ffffff;
+					border-top: solid 1.5px #ffffff;
 				}
 
 					#header nav ul li:first-child {
@@ -1510,6 +1524,7 @@ input, select, textarea {
 				#header > *:before {
 					top: calc(-2rem - 1px);
 					height: calc(2rem + 1px);
+					width: 1.5px;
 				}
 
 			#header .logo {
@@ -1553,7 +1568,7 @@ input, select, textarea {
 
 					#header nav ul li {
 						border-left: 0;
-						border-top: solid 1px #ffffff;
+						border-top: solid 1.5px #ffffff;
 					}
 
 						#header nav ul li:first-child {
@@ -1604,6 +1619,14 @@ input, select, textarea {
 		max-width: 100%;
 		z-index: 3;
 	}
+
+		#main #work h5 {
+			margin: 0px;
+		}
+
+		#main #education h5 {
+			margin: 0px;
+		}
 
 		#main article {
 			-moz-transform: translateY(0.25rem);
@@ -1679,7 +1702,7 @@ input, select, textarea {
 
 			#main article .map-container {
 				height: 300px;
-				margin: 0 0 1rem 0;
+				margin: 0 0 2rem 0;
 			}
 
 		}
@@ -1704,7 +1727,7 @@ input, select, textarea {
 
 				#main article .map-container {
 					height: 300px;
-					margin: 0 0 1rem 0;
+					margin: 0 0 2rem 0;
 				}
 
 		}
@@ -1721,7 +1744,7 @@ input, select, textarea {
 
 			#main article .map-container {
 				height: 200px;
-				margin: 0 0 1rem 0;
+				margin: 0 0 2rem 0;
 			}
 
 			#main .work .image.left img {
@@ -1738,7 +1761,7 @@ input, select, textarea {
 
 			#main article .map-container {
 				height: 200px;
-				margin: 0 0 1rem 0;
+				margin: 0 0 2rem 0;
 			}
 
 		}
