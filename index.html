@@ -290,31 +290,35 @@
 						<!-- Contact -->
 							<article id="contact">
 								<h2 class="major">Contact</h2>
-								<form method="post" action="#">
-									<div class="fields">
-										<div class="field half">
-											<label for="name">Name</label>
-											<input type="text" name="name" id="name" />
-										</div>
-										<div class="field half">
-											<label for="email">Email</label>
-											<input type="text" name="email" id="email" />
-										</div>
-										<div class="field">
-											<label for="message">Message</label>
-											<textarea name="message" id="message" rows="4"></textarea>
-										</div>
-									</div>
-									<ul class="actions">
-										<li><input type="submit" value="Send Message" class="primary" /></li>
-										<li><input type="reset" value="Reset" /></li>
-									</ul>
-								</form>
+								<h3 class="major">Address</h3>
+									<iframe class="map-container" style="border-radius: 4px;" 
+										src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3339.293235250812!2d-96.92420489999999!3d33.180177!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c3760f297cd9d%3A0xbf04f0f194b8bdac!2s2757%20Lone%20Ranger%20Tr%2C%20Little%20Elm%2C%20TX%2075068!5e0!3m2!1sen!2sus!4v1710192301789!5m2!1sen!2sus" 
+										width="100%" 
+										height="100%" 
+										style="border:0;"
+										allowfullscreen="" 
+										loading="lazy" 
+										referrerpolicy="no-referrer-when-downgrade">
+									</iframe>
+									<h4>House Number: 2757</h4>
+									<h4>Street:Lone Ranger TRL</h4>
+									<h4>City: Little Elm</h4>
+									<h4>States: Texas</h4>
+									<h4>Country: united States</h4>
+									<h4 style="margin: 0 0 2rem 0;">Zipcode: 75068</h4>
+								<h3 class="major">Phone Number</h3>
+									<h4>Primary Number: +1 (201) 724-5953</h4>
+									<h4 style="margin: 0 0 2rem 0;">Secondary Number: +1 (908) 240-3575</h4>
+								<h3 class="major">Email</h3>
+									<h4>Primary Email: fakhruddinpattan1997@gmail.com</h4>
+									<h4 style="margin: 0 0 2rem 0;"> Secondary Email: fp2109@nyu.edu</h4>
+								<h3 class="major">Social Media</h3>
 								<ul class="icons">
-									<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+									<li><div class="button"><a href="https://www.linkedin.com/in/fakhruddin-pattan/" class="icon brands fa-linkedin-in" target="_blank"><span class="label">Linked in</span></a></div></li>
+									<li><div class="button"><a href="https://twitter.com/P_Fakhruddin" class="icon brands fa-twitter" target="_blank"><span class="label">Twitter</span></a></div></li>
+									<li><div class="button"><a href="https://www.facebook.com/pattan.fakhruddin/" class="icon brands fa-facebook-f"><span class="label" target="_blank">Facebook</span></a></div></li>
+									<!-- <li><div class="button"><a href="#" class="icon brands fa-instagram"><span class="label" target="_blank">Instagram</span></a></div></li>
+									<li><div class="button"><a href="#" class="icon brands fa-snapchat-ghost "><span class="label" target="_blank">Snapchat</span></a></div></li> -->
 								</ul>
 							</article>
 
@@ -337,7 +341,7 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 			<script>
-				const buttons = document.querySelectorAll('#skills .button');
+				const buttons = document.querySelectorAll('#skills .button, .icons .button');
 				buttons.forEach(button => {
 					button.addEventListener('mouseover', () => {
 						button.classList.add('primary');

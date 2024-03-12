@@ -947,22 +947,15 @@ input, select, textarea {
 			}
 
 			ul.icons li a {
-				border-radius: 100%;
-				box-shadow: inset 0 0 0 1px #ffffff;
 				display: inline-block;
 				height: 2.25rem;
 				line-height: 2.25rem;
 				text-align: center;
 				width: 2.25rem;
+				font-size: 24px;
+				height: 100%;
+				margin-top: 4px;
 			}
-
-				ul.icons li a:hover {
-					background-color: rgba(255, 255, 255, 0.075);
-				}
-
-				ul.icons li a:active {
-					background-color: rgba(255, 255, 255, 0.175);
-				}
 
 /* Table */
 
@@ -1684,6 +1677,11 @@ input, select, textarea {
 				margin-left: 88px;
 			}
 
+			#main article .map-container {
+				height: 300px;
+				margin: 0 0 1rem 0;
+			}
+
 		}
 
 		@media screen and (max-width: 736px) {
@@ -1704,6 +1702,11 @@ input, select, textarea {
 					margin-left: 86px;
 				}
 
+				#main article .map-container {
+					height: 300px;
+					margin: 0 0 1rem 0;
+				}
+
 		}
 
 		@media screen and (max-width: 480px) {
@@ -1716,6 +1719,11 @@ input, select, textarea {
 				margin-left: 0px;
 			}
 
+			#main article .map-container {
+				height: 200px;
+				margin: 0 0 1rem 0;
+			}
+
 			#main .work .image.left img {
 				margin-bottom: 18px;
 			}
@@ -1726,6 +1734,11 @@ input, select, textarea {
 
 			#main article .location {
 				margin-left: 0px;
+			}
+
+			#main article .map-container {
+				height: 200px;
+				margin: 0 0 1rem 0;
 			}
 
 		}
